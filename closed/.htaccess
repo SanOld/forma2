@@ -1,0 +1,32 @@
+#Защищаем .htaccess файл
+<files .htaccess="">
+order allow,deny
+deny from all
+</files>
+
+
+
+<files "sql.php">
+deny from all
+Allow from 127.0.0.1
+</files>
+
+<files "check.php">
+deny from all
+Allow from 127.0.0.1
+</files>
+
+<files "check_login.php">
+deny from all
+Allow from 127.0.0.1
+</files>
+
+<files "client_register.php">
+deny from all
+Allow from 127.0.0.1
+</files>
+
+<files "changecheck.php">
+deny from all
+Allow from 127.0.0.1
+</files>

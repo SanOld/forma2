@@ -1,0 +1,341 @@
+
+
+
+html, body {
+	width: 100%;
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	color: #444;
+	-webkit-font-smoothing: antialiased;
+	background: url(/img/bg.png) repeat;
+	
+}
+
+#main {
+	position: fixed;
+	width: 340px;
+	height: 280px;
+	top: 50%;
+	left: 50%;
+	margin-top: -140px;
+	margin-left: -170px;
+	background: #fff;
+	border-radius: 3px;
+	border: 1px solid #ccc;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+}
+
+#registermain {
+	position: fixed;
+	width: 430px;
+	height: 650px;
+	top: 50%;
+	left: 50%;
+	margin-top: -300px;
+	margin-left: -170px;
+	background: #fff;
+	border-radius: 3px;
+	border: 1px solid #ccc;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+}
+
+#profilemain {
+	position: fixed;
+	width: 430px;
+	height: 440px;
+	top: 50%;
+	left: 50%;
+	margin-top: -300px;
+	margin-left: -170px;
+	background: #fff;
+	border-radius: 3px;
+	border: 1px solid #ccc;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+}
+
+#profilemain h1{
+    float: left
+}
+
+img {
+    margin-left: 20px
+}
+ul {
+      list-style: none
+}
+ul li{
+    float: right
+}
+
+li .active{
+    color: #56c2e1
+
+}
+form {
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+label {
+        font-family: 'Bree Serif', serif;
+	color: #555;
+	display: inline-block;
+	margin-left: 18px;
+	padding-top: 10px;
+	font-size: 14px;
+        width: 50px;
+}
+p {
+	font-size: 11px;
+        margin: 5px;
+        color: #aaa;    
+}
+
+p a {
+	font-size: 11px;
+	color: #aaa;
+	float: left;
+	display: block;
+	margin-top: -15px;
+	margin-left: 5px;
+        margin-right: 5px;
+        margin: 0;
+	-webkit-transition: all .4s ease;
+	-moz-transition: all .4s ease;
+	transition: all .4s ease;
+}
+
+
+p a:hover {
+	color: #555;
+}
+
+
+h1 {
+	font-family: 'Bree Serif', serif;
+	font-weight: 300;
+	font-size: 28px;
+	line-height: 34px;
+	color: #414848;
+	text-shadow: 1px 1px 0 rgba(256,256,256,1.0);
+	margin-bottom: 10px;
+	margin-left: 18px;
+}
+
+input {
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 12px;
+	outline: none;    
+}
+
+#lang{
+    display: block;
+    font-size: 11px;
+    height: 2em;
+    width: 100%;
+}
+#registermain input {
+      left : 50px;
+}
+
+#lower input {
+      left : 0px;
+}
+
+
+input[type=email],
+input[type=text],
+input[type=file],
+input[type=password] {
+	color: #777;
+	padding-left: 10px;
+	/*margin: 10px;*/
+	margin-top: 10px;
+        margin-right: 10px;
+	margin-left: 18px;
+	width: 290px;
+	height: 35px;
+	border: 1px solid #c7d0d2;
+	border-radius: 2px;
+	box-shadow: inset 0 1.5px 3px rgba(190, 190, 190, .4), 0 0 0 5px #f5f7f8;
+        
+	-webkit-transition: all .4s ease;
+	-moz-transition: all .4s ease;
+	transition: all .4s ease;
+}
+
+
+input[type=email]:hover,
+input[type=text]:hover,
+input[type=file]:hover,
+input[type=password]:hover {
+	border: 1px solid #b6bfc0;
+	box-shadow: inset 0 1.5px 3px rgba(190, 190, 190, .7), 0 0 0 5px #f5f7f8;
+}
+
+
+input[type=email]:focus,
+input[type=text]:focus,
+input[type=file]:focus,
+input[type=password]:focus {
+	border: 1px solid #a8c9e4;
+	box-shadow: inset 0 1.5px 3px rgba(190, 190, 190, .4), 0 0 0 5px #e6f2f9;
+}
+
+
+#lower {
+	background: #ecf2f5;
+	width: 100%;
+	height: 69px;
+	margin-top: 20px;
+	box-shadow: inset 0 1px 1px #fff;
+	border-top: 1px solid #ccc;
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+
+.check {
+	margin-left: 90px;
+	font-size: 11px;
+	color: #444;
+	text-shadow: 0 1px 0 #fff;
+}
+.check+label {
+width: 300px;
+margin-left: 5px;
+}
+
+
+.active a{
+    color:#56c2e1;
+}
+
+/* Register button */
+
+ .button {
+  float: right;
+  padding: 11px 25px;
+  font-family: 'Bree Serif', serif;
+  margin: 10px 20px;
+  font-weight: 300;
+  font-size: 18px;
+  color: #fff;
+  text-shadow: 0px 1px 0 rgba(0,0,0,0.25);
+  background: #56c2e1;
+  border: 1px solid #46b3d3;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: inset 0 0 2px rgba(256,256,256,0.75);
+  -moz-box-shadow: inset 0 0 2px rgba(256,256,256,0.75);
+  -webkit-box-shadow: inset 0 0 2px rgba(256,256,256,0.75);
+  
+  	-webkit-transition: all .4s ease;
+	-moz-transition: all .4s ease;
+	transition: all .4s ease;
+}
+
+  .button:hover {
+	background: #3f9db8;
+	border: 1px solid rgba(256,256,256,0.75);
+	
+	box-shadow: inset 0 1px 3px rgba(0,0,0,0.5);
+	-moz-box-shadow: inset 0 1px 3px rgba(0,0,0,0.5);
+	-webkit-box-shadow: inset 0 1px 3px rgba(0,0,0,0.5);
+}
+.button:focus {
+	position: relative;
+	bottom: -1px;
+	background: #56c2e1;
+	box-shadow: inset 0 1px 6px rgba(256,256,256,0.75);
+	-moz-box-shadow: inset 0 1px 6px rgba(256,256,256,0.75);
+	-webkit-box-shadow: inset 0 1px 6px rgba(256,256,256,0.75);
+}
+
+ .register {
+  display: block;
+  float: left;
+  padding: 10px 5px 10px 0;
+  margin: 10px 20px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: 'Bree Serif', serif;
+  font-weight: 300;
+  font-size: 18px;
+  color: #414848;
+  text-shadow: 0px 1px 0 rgba(256,256,256,0.5);
+  
+    	-webkit-transition: all .4s ease;
+	-moz-transition: all .4s ease;
+	transition: all .4s ease;
+}
+  .register:hover {
+	color: #3f9db8;
+}
+
+ .register:focus {
+	position: relative;
+	bottom: -1px;
+}
+
+
+/*для кнопки выбора файла*/
+.file_upload{
+    display: block;
+    position: relative;
+    overflow: hidden;
+    font-size: 1em;           
+    height: 3em;              
+    line-height: 2em ;            
+        width : 100%;
+     margin: 18px 0px;  
+     
+      vertical-align: middle;
+}
+.file_upload .button, .file_upload > mark{
+    display: block;
+    cursor: pointer             
+}
+.file_upload .button{
+    
+  float: right;
+
+  font-family: 'Bree Serif', serif;
+  margin: 10px 20px;
+  font-weight: 300;
+  font-size: inherit;
+  height: 2em;
+    padding-top: 5px;
+
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 134px;                 
+    text-align: center;           
+    vertical-align: middle;
+    border-radius: 5px;   
+    margin-right: 40px;
+        
+}
+.file_upload > label{
+    float: left ;   
+}
+.file_upload > mark{
+    font-family: 'Bree Serif', serif;
+    background: transparent;    
+    padding-left: 2em;           
+    padding-top: 0.6em;
+    float: left ; 
+    color: #BEBEBE
+}
+
+
+.file_upload input[type=file]{
+    position: absolute;
+    top:0;
+    opacity: 0;
+    width: 100% 
+}
+
+.ava {
+  width: 50px;
+  height: 50px
+}
